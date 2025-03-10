@@ -1,0 +1,67 @@
+.text-lgreen {
+    color: lightgreen;
+}
+
+.text-silver {
+    color: silver;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-black {
+    color: black;
+}
+
+.heading {
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 10px #ff7e5f;
+    font-size: 3rem;
+}
+
+.sub-heading {
+    font-weight: bold;
+    font-size: small;
+}
+h1:hover, h2:hover, h3:hover, h4:hover {
+    color: rgb(49, 221, 49);
+    font-size: 3.5rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 10px #ff7e5f;
+    cursor: pointer;
+}
+
+.paracontent {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #c2d87b;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contentmargin {
+    margin: 0px 75px
+}
+
+.quotes {
+
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #f59f4e9b;
+    border-left: 5px solid #ff7e5f;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}

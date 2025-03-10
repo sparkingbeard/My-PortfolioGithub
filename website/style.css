@@ -1,0 +1,198 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #811290;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 10px #ff7e5f;
+}
+
+nav ul li a:hover {
+    color: rgb(49, 221, 49);
+    font-size: 1.1rem;
+}
+
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    background: linear-gradient(45deg, #ff8c00, #ff0080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.main {
+    gap: 3.5rem;
+}
+
+.main div:hover {
+    cursor: pointer;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.rightsection img {
+    width: 70%;
+    margin: 100px 0px 0px 0px;
+}
+
+#element {
+    color: lightgreen;
+}
+
+.aboutsection {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px
+}
+
+.eduexpcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: black;
+
+}
+
+.edu {
+    background-color: #fff7df;
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    height: 18rem;
+    width: 40rem;
+    border-radius: 3rem;
+}
+
+
+.top {
+    width: 26vw;
+    height: 6vw;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#pce {
+    margin: 0px 20px 18px 0px;
+    font-size: medium;
+    line-height: 18px;
+}
+
+.date {
+    display: flex;
+    height: 7vh;
+    width: 13vw;
+}
+
+#degreeimg {
+    height: 8vh;
+}
+
+.skillsection {
+    margin: 1rem 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillscard {
+
+    height: 30rem;
+    width: 80rem;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillscard div img:hover {
+    cursor: pointer;
+    transition: transform 0.5s;
+    width: 15rem;
+    background-color: rgb(83, 27, 131);
+    border: 2px solid rgb(93, 38, 41);
+    border-radius: 2rem;
+}
+
+.iconimgs {
+    width: 120px;
+}
+
+.footer {
+    display: flex;
+    background-color: #080309;
+    height: 20rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer div a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 10px #ff7e5f;
+}
+
+footer div p:hover {
+    color: rgb(49, 221, 49);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+footer div a:hover {
+    color: rgb(49, 221, 49);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.socialMedia {
+    display: flex;
+
+    gap: 2rem;
+}
+.hire:hover{
+    color: rgb(199, 19, 43);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
