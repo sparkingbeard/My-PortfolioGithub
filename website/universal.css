@@ -3,8 +3,13 @@
     padding: 0;
 }
 
-body {
+html, body {
     background-color: #23023a;
     color: whitesmoke;
     font-family:'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }

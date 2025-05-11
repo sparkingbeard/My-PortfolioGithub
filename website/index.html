@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tushar's - Developer - Portfolio</title>
+    <title>Tushar's Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utilities.css">
     <link rel="stylesheet" href="universal.css">
@@ -16,6 +16,8 @@
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="portfolio.js"></script>
+    <script src="https://kit.fontawesome.com/d1c40b52d5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
 
@@ -25,19 +27,20 @@
             <div class="logo">"TUSHAR'S PORTFOLIO"</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Skills</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact</a></li>
-                    <li><a href="/">Resume</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutme">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="assets\Tushar-Bisen-Resume.pdf" rel="noopener noreferrer" target="_blank">View
+                            Resume</a></li>
                 </ul>
             </div>
         </nav>
 
     </header>
-    <main class="flexColumn main">
-        <section class="firstsection">
+    <main class="main">
+        <section class="firstsection" id="home">
             <div class="leftsection">
                 <span class="text-lgreen">Hi there</span>, I am <span class="text-lgreen">Tushar Bisen</span>
                 <div>
@@ -49,22 +52,17 @@
                 <img src="images/devimg.png" alt="developer image">
             </div>
         </section>
-        <section class="aboutsection">
-
-            <h1 class="heading">About me</h1>
-            <div class="contentmargin">
-                <p class="paracontent">
+        <section class="aboutsection" id="aboutme">
+            <div class="profile_summary">
+                <h1 class="heading">About me</h1>
+                <p class="para_content_font">
                     Hello, I am <b>Tushar Nitendra Bisen</b> a highly motivated and detail-oriented Full Stack Java
                     Developer with expertise in front-end and back-end development. Proficient in HTML, CSS, JavaScript,
                     AngularJS for crafting dynamic and responsive user interfaces, combined with strong backend
                     experience in Core Java, Advanced Java, and MySQL for developing scalable and efficient
-                    applications. Adept at building and maintaining full-stack applications, integrating APIs, and
-                    ensuring seamless user experiences. Passionate about writing clean, optimized code and continuously
-                    learning new technologies to stay updated with industry trends.
+                    applications.
                 </p>
-            </div>
-            <h1 class="heading">Education and Experience</h1>
-            <div class="flex" class="contentmargin">
+                <h2>Education and Experience</h2>
                 <p class="quotes">
                     "Education is not just about acquiring knowledge, but about learning how to think, create, and
                     innovate".
@@ -72,52 +70,46 @@
                     <br>
                     "Learning never stops. Every challenge is an opportunity to grow and evolve".
                 </p>
-            </div>
-            <div class="eduexpcontainer" class="contentmargin">
-                <div class="edu">
-                    <div class="top">
-                        <div>
-                            <h2 id="pce" class="text-bold">
-                                Priyadarshini College Of Engineering
-                            </h2>
-                            <h4 class="sub-heading">B.tech - Electrical Engineering</h4>
+                <div class="eduexpcontainer" class="contentmargin">
+                    <div class="edu">
+                        <div class="top">
+                            <div>
+                                <h3 id="pce" class="text-bold">
+                                    Priyadarshini College Of Engineering
+                                </h3>
+                                <h4>B.tech - Electrical Engineering</h4>
+                            </div>
+                            <div class="date">
+                                <img id="degreeimg"
+                                    src="images/png-clipart-bachelor-s-degree-academic-degree-master-s-degree-diploma-bachelor-of-science-paris-bridge-thumbnail.png"
+                                    alt="degree image" ::before>
+                                <div class="date" class="text-black">May 2021 – may 2024</div>
+                            </div>
                         </div>
+                        <p class="text-black">- Typically a 4-year undergraduate program, divided into 8 semesters.</p>
 
-
-                        <div class="date">
-                            <img id="degreeimg"
-                                src="images/png-clipart-bachelor-s-degree-academic-degree-master-s-degree-diploma-bachelor-of-science-paris-bridge-thumbnail.png"
-                                alt="degree image" ::before>
-                            <div class="date" class="text-black">May 2021 – may 2024</div>
-                        </div>
                     </div>
-                    <p class="text-black">- Typically a 4-year undergraduate program, divided into 8 semesters.</p>
-
-                </div>
-                <div class="edu">
-                    <div class="top">
-                        <div>
-                            <h2 id="pce" class="text-bold">
-                                ARC Technologies and Institute
-                            </h2>
-                            <h4 class="sub-heading">Java Full Stack Development</h4>
+                    <div class="edu">
+                        <div class="top">
+                            <div>
+                                <h3 id="pce" class="text-bold">
+                                    ARC Technologies and Institute
+                                </h3>
+                                <h4>Java Full Stack Development</h4>
+                            </div>
+                            <div class="date">
+                                <img id="degreeimg"
+                                    src="images/png-clipart-bachelor-s-degree-academic-degree-master-s-degree-diploma-bachelor-of-science-paris-bridge-thumbnail.png"
+                                    alt="degree image" ::before>
+                                <div class="date" class="text-black">May 2024 – December 2024</div>
+                            </div>
                         </div>
-
-
-                        <div class="date">
-                            <img id="degreeimg"
-                                src="images/png-clipart-bachelor-s-degree-academic-degree-master-s-degree-diploma-bachelor-of-science-paris-bridge-thumbnail.png"
-                                alt="degree image" ::before>
-                            <div class="date" class="text-black">May 2024 – December 2024</div>
-                        </div>
+                        <p class="text-black">- 6-month program covering Core Java, Spring Boot, Hibernate, REST APIs,
+                            and
+                            database management.</p>
                     </div>
-                    <p class="text-black">- 6-month program covering Core Java, Spring Boot, Hibernate, REST APIs, and
-                        database management.</p>
-
-                </div>
-            </div>
         </section>
-        <section class="skillsection">
+        <section class="skillsection" id="skills">
             <h1 class="heading">My Skills</h1>
             <div class="skillscard" class="contentmargin">
                 <div class="icons"><img class="iconimgs" src="images/html5-img.png" alt="HTML Icon"></div>
@@ -130,23 +122,113 @@
                 <div class="icons"><img class="iconimgs" src="images/angular-img.png" alt="Angular icon"></div>
             </div>
         </section>
+        <section id="project" class="projects_section">
+            <h1>Latest Project works</h1>
+            <div class="projects_content">
+
+                <div class="Janmat">
+                    <h3>Project <span class="text-yellow">#1</span></h3>
+                    <h2>JANMAT</h2>
+                    <P>JANMAT is a full-stack Java web application designed to enhance transparancy, accountability, and
+                        public engagement by providing detailed insights into sitting ministers' initiatives, fund
+                        allocations, public complaints, and citizen feedback.
+                        <br>
+                        <b>Tech stack:</b> Java, SpringBoot, Angular, MySQL, etc.
+                        <br>
+                        <a href="https://github.com/sparkingbeard/JANMAT"><i class="fa-brands fa-github"></i></a>
+                        <!-- <a href=""><i class="fa-solid fa-link"></i></a> -->
+                    </P>
+
+                </div>
+                <div class="ems">
+                    <h3>Project <span class="text-yellow">#2</span></h3>
+                    <h2>Employee Management System</h2>
+                    <p>Employee Management System is a Backend Java Project designed to perform CRUD operations on
+                        employees related data.</p>
+                    <b>Tech stack:</b> Java, SpringBoot, MySQL, etc.
+                    <br>
+                    <a href="https://github.com/sparkingbeard/Employee-Management-System"><i class="fa-brands fa-github"></i></a>
+                    <!-- <a href=""><i class="fa-solid fa-link"></i></a> -->
+
+                </div>
+                <div class="portfolio_website">
+                    <h3>Project <span class="text-yellow">#3</span></h3>
+                    <h2>My Portfolio Website</h2>
+                    <p>The portfolio website you are currently visiting is the project "My Portfolio Website".</p>
+                    <b>Tech stack:</b> HTML, CSS, JavaScript.
+                    <br>
+                    <a href="https://github.com/sparkingbeard/My-PortfolioGithub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://my-portfolio-github-xv76.vercel.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </section>
+        <section id="contact" class="contacts">
+            <h1>Contact Me</h1>
+            <div class="contact_container">
+                <div class="details">
+                    <h2>What's up?</h2>
+                    <p>Hello, I have mentioned my contact details below, you can also contact me by filling the form
+                        there ---></p>
+                    <br>
+                    <br>
+                    <br>
+                    <b>Nagpur, Maharashtra, India</b>
+                    <br>
+                    <b>tusharbisen8@gmail.com</b><br>
+                    <b>8668360956</b>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="socialMedia">
+                        <a href="https://www.linkedin.com/in/tushar-bisen-4379a7209/" target="_blank ">linkedin <i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=https://github.com/" target="_blank ">Git <i class="fa-brands fa-github"></i></a>
+                        <a href="https://leetcode.com/" target="_blank ">Leetcode <i class="fa-solid fa-code"></i></a>
+                    </div>
+
+                </div>
+
+                <form action="#" class="form">
+                    <div class="input_box">
+                        <input type="text" class="full_name" placeholder="Full Name" required>
+                        <input type="email" class="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input_text">
+                        <input type="tel" class="mobile_no" placeholder="Mobile Number" required>
+                        <input type="text" class="subject" placeholder="Email Subject" required>
+                    </div>
+                    <textarea rows="8" cols="30" class="message" placeholder="Your Message" required></textarea>
+                    <input type="submit" class="btn" value="Send message">
+                </form>
+
+
+            </div>
+
+        </section>
         <article></article>
         <aside></aside>
 
     </main>
     <footer class="footer">
-        <div class="rights"><p>copyright &copy</p></div>
-        <div><p class="hire">Made with love and lots of efforts &hearts;</p></div>
+        <div class="rights">
+            <p>copyright &copy</p>
+        </div>
+        <div>
+            <p class="hire">Made with love and lots of efforts &hearts;</p>
+        </div>
         <div class="socialMedia">
-            <a href="https://www.linkedin.com/in/tushar-bisen-4379a7209/" target="_blank ">linkedin</a>
-            <a href=https://github.com/" target="_blank ">Git</a>
-            <a href="https://leetcode.com/" target="_blank ">Leetcode</a>
+            <a href="https://www.linkedin.com/in/tushar-bisen-4379a7209/" target="_blank ">linkedin <i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href=https://github.com/" target="_blank ">Git <i class="fa-brands fa-github"></i></a>
+            <a href="https://leetcode.com/" target="_blank ">Leetcode <i class="fa-solid fa-code"></i></a>
         </div>
     </footer>
 
     <script>
         var typed = new Typed('#element', {
-            strings: ['<i>Web</i> Developer.', 'Front-end Developer.', 'Java Developer.', 'Full Stack Developer.'],
+            strings: ['<i>Web</i> Developer.', 'Front-end Developer.', 'Java Developer.', 'Full Stack Java Developer.'],
             typeSpeed: 50,
         });
     </script>

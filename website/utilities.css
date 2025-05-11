@@ -13,25 +13,31 @@
 .text-black {
     color: black;
 }
+.text-yellow{
+    color: #FFD700;
+}
 
-.heading {
+
+h1 {
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 10px #ff7e5f;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-size: bold;
 }
-
-.sub-heading {
-    font-weight: bold;
-    font-size: small;
+h2{
+    font-size: 1.5rem;
 }
-h1:hover, h2:hover, h3:hover, h4:hover {
-    color: rgb(49, 221, 49);
-    font-size: 3.5rem;
+h1:hover {
+    color:  #FFD700;
+    font-size: 2rem;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 10px #ff7e5f;
     cursor: pointer;
 }
+h2, h3, h4:hover{
+    cursor: pointer;
+}
 
-.paracontent {
+.para_content_font {
     font-size: 18px;
     line-height: 1.8;
     color: #c2d87b;
@@ -39,11 +45,10 @@ h1:hover, h2:hover, h3:hover, h4:hover {
     letter-spacing: 0.5px;
     word-spacing: 2px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-}
+    margin-bottom: 1.5em;
+    margin-top: 1.5rem;
+  }
 
-.contentmargin {
-    margin: 0px 75px
-}
 
 .quotes {
 
