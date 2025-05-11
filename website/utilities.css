@@ -13,7 +13,8 @@
 .text-black {
     color: black;
 }
-.text-yellow{
+
+.text-yellow {
     color: #FFD700;
 }
 
@@ -22,18 +23,23 @@ h1 {
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 10px #ff7e5f;
     font-size: 2rem;
-    font-size: bold;
+    font-weight: bold;
 }
-h2{
+
+h2 {
     font-size: 1.5rem;
 }
+
 h1:hover {
-    color:  #FFD700;
+    color: #FFD700;
     font-size: 2rem;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 10px #ff7e5f;
     cursor: pointer;
 }
-h2, h3, h4:hover{
+
+h2,
+h3,
+h4:hover {
     cursor: pointer;
 }
 
@@ -45,28 +51,7 @@ h2, h3, h4:hover{
     letter-spacing: 0.5px;
     word-spacing: 2px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1.5em;
-    margin-top: 1.5rem;
-  }
-
-
-.quotes {
-
-    font-family: 'Georgia', serif;
-    font-size: 20px;
-    font-style: italic;
-    color: #f59f4e9b;
-    border-left: 5px solid #ff7e5f;
-    padding: 10px 20px;
-    margin: 20px 0;
-}
-
-.flex {
-    display: flex;
-    justify-content: center;
-}
-
-.flexColumn {
-    display: flex;
-    flex-direction: column;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
 }
