@@ -698,4 +698,8 @@ footer div a:hover {
     }
 }
 
-@media screen and (max-width: 359px) {}
+@media screen and (max-width: 359px) {
+    nav{
+        flex-direction: column;
+    }
+}
