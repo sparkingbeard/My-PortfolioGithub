@@ -703,3 +703,23 @@ footer div a:hover {
         flex-direction: column;
     }
 }
+
+@media screen and (max-width:600px) {
+    .firstsection{
+    scroll-margin: 11rem;
+    }
+    .aboutsection{
+        scroll-margin: 11rem;
+    }
+    .skillsection{
+        scroll-margin: 11rem;
+        min-height: 80vh;
+    }
+    .projects_section{
+        scroll-margin: 11rem;
+    }
+    .contact_section{
+        scroll-margin: 11rem;
+        min-height: 80vh;
+    }
+}
